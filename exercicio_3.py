@@ -23,7 +23,6 @@ Os números ímpares são [1, 3, 5]
 lista = [*map(int, input("Digite a sua lista (separando os números por vírgula): ").split(","))]
 
 # Fazer a partir daqui...
-lista = [*map(int, input("Digite a sua lista (separando os números por vírgula): ").split(","))]
 
 lista_impares =[]
 

@@ -45,13 +45,11 @@ indice_maior = 0
 
 for i in range(len(lista_de_organismos)):
     soma = 0
-for j in range(len(lista_de_organismos[i])):
-    soma += lista_de_organismos[i][j]
-    
-media = soma / len(lista_de_organismos[i])
-    
-if media > maior_media:
-    maior_media = media
-    indice_maior = i
+    for j in range(len(lista_de_organismos[i])):
+        soma += lista_de_organismos[i][j]
+    media = soma / len(lista_de_organismos[i])
+    if media > maior_media:
+        maior_media = media
+        indice_maior = i
 
 print(f"O organismo com maior média é o da posição {indice_maior} da lista.")

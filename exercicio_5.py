@@ -45,9 +45,8 @@ indice_maior = 0
 
 for i in range(len(lista_de_organismos)):
     soma = 0
-    
- for j in range(len(lista_de_organismos[i])):
-     soma += lista_de_organismos[i][j]
+for j in range(len(lista_de_organismos[i])):
+    soma += lista_de_organismos[i][j]
     
 media = soma / len(lista_de_organismos[i])
     
